@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    
+    <title>My Profile</title>
+</head>
+<body>
+    <div class="row sm-nav position-fixed d-ms-block d-md-none">
+      <ul class="nav">
+        <li class="nav-item col-3">
+          <a class="nav-link"href="#item-1">HOME</a>
+        </li>
+        <li class="nav-item  col-3">
+          <a class="nav-link" href="#item-2">ABOUT</a>
+        </li>
+        <li class="nav-item  col-3">
+          <a class="nav-link" href="#item-3">PHOTS</a>
+        </li>
+        <li class="nav-item  col-3">
+          <a class="nav-link" href="#item-4">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row body">
+        <div class="d-md-block col-2 lside d-sm-none">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end position-fixed">
+            <nav class="nav nav-pills flex-column">
+              <img src="./images/me.png" alt="" id="me">
+              <a class="nav-link" style="background-color: black;" href="#item-1"><i class="bi bi-house-fill big"></i><br>
+                HOME</a>
+              <a class="nav-link" href="#item-2"><i class="bi bi-person-fill big"></i> <br> ABOUT</a>
+              <a class="nav-link" href="#item-3"> <i class="bi bi-eye-fill big"></i> <br> PHOTOS</a>
+              <a class="nav-link" href="#item-4"> <i class="bi bi-envelope-fill big"></i> <br> CONTACT</a>
+            </nav>
+          </nav>
+        </div>
+      
+        <div class="col-10 col-md-9 col-sm-12 text-center pad">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+              <h1 id="name">I'm Asmaa Essam.</h1>
+              <p>Programmer and Web Designer</p>
+              <img src="./images/me.png" alt="" id="img">
+            </div>
+            <div id="item-2">
+              <h1>My Name</h1>
+              <hr class="line">
+              <p></p>
+              <h4>My Skills</h4>
+              <br>
+              <div class="row">
+                <label>Photoshop</p>
+                  <div class="outer">
+                    <div class="inner1"></div>
+                  </div>
+              </div><br>
+              <div class="row">
+                <label>HTML and CSS</p>
+                  <div class="outer">
+                    <div class="inner2"></div>
+                  </div>
+              </div><br>
+              <div class="row">
+                <label>PHP</p>
+                  <div class="outer">
+                    <div class="inner3"></div>
+                  </div>
+              </div><br>
+              <div class="row">
+                <label>JavaScript</p>
+                  <div class="outer">
+                    <div class="inner4"></div>
+                  </div>
+              </div>
+              <br><br>
+              <div class="row box">
+                <div class="col-md-3 col-sm-12 center">
+                  <h2>11+</h2>
+                  <h5>Partners</h5>
+                </div>
+                <div class="col-md-3 col-sm-12 center">
+                  <h2>55+</h2>
+                  <h5>Projects Done</h5>
+                </div>
+                <div class="col-md-3 col-sm-12 center">
+                  <h2>89+</h2>
+                  <h5>Happy Clients</h5>
+                </div>
+                <div class="col-md-3 col-sm-12 center">
+                  <h2>150+</h2>
+                  <h5>Meeting</h5>
+                </div>
+              </div>
+              <br>
+              <div>
+                <button type="button"><i class="bi bi-cloud-arrow-down-fill" style="font-size: 22px;"></i> Download Resume</button>
+              </div>
+              <br><br>
+              <h4>My Price</h4>
+              <div class="row" style="width: 98%;">
+                <div class="col-md-6 basic">
+                  <div class="thead">Basic</div>
+                  <div class="tbody">Web Design</div>
+                  <div class="tbody">Photography</div>
+                  <div class="tbody">5GB Storage</div>
+                  <div class="tbody">Mail Support</div>
+                  <div class="tbody">
+                    <h4>$ 10</h4>
+                    per month</div>
+                  <div class="tbody"><input type="submit" value="Sign Up" class="btn btn-light buy"></div>
+                </div>
+                <div class="col-md-6 basic">
+                  <div class="thead">Pro</div>
+                  <div class="tbody">Web Design</div>
+                  <div class="tbody">Photography</div>
+                  <div class="tbody">50GB Storage</div>
+                  <div class="tbody">Endless Support</div>
+                  <div class="tbody">
+                    <h4>$ 25</h4>
+                    per month</div>
+                  <div class="tbody"><input type="submit" value="Sign Up" class="btn btn-light buy"></div>
+                </div>
+              </div>
+              <br><br>
+              <h4>My Reputation</h4><br>
+              <div class="rep">
+                <img src="./images/rep1.jpg" alt="..." class="rep_img">
+                <div class="rep_con">
+                  <span class="space">Chris Fox. </span>
+                  <span>CEO at Mighty Schools.</span>
+                  <p>Asmaa Essam saved us from web disaster.</p>
+                </div>
+              </div>
+              <div class="rep">
+                <img src="./images/rep2.jpg" alt="..." class="rep_img">
+                <div class="rep_con">
+                  <span class="space">Rebecca Flex. </span>
+                  <span>CEO at Company.</span>
+                  <p>No one is better than Asmaa Essam.</p>
+                </div>
+              </div>
+            </div>
+            <div id="item-3" style="width: 95%;">
+              <h1>My Photos</h1>
+              <hr class="line">
+              <div class="row">
+                <img class="col-12 m_bottom" src="./images/poster.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom" src="./images/EDT_1.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom" src="./images/EDT_2.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom" src="./images/EDT_3.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom"src="./images/EDT_4.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom"src="./images/logo_1.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom" src="./images/logo_2.png" alt="">
+                <img class="col-md-6 col-sm-12 m_bottom"src="./images/logo5.png" alt="">
+              </div>
+            </div>
+            <br><br>
+            <div id="item-4">
+              <h1>Contact Me</h1>
+              <hr class="line">
+              <div class="row" style="width: 95%;">
+                <div><i class="bi bi-geo-alt-fill lg_icon"></i><span>Qena, Egypt</span></div>
+                <div><i class="bi bi-telephone-fill lg_icon"></i><span>Phone: 0112</span></div>
+                <div><i class="bi bi-envelope-fill lg_icon"></i><span>Email, asmaa@gmail.com</span></div>
+                
+                <p class="mar_tb">Let's get in touch. Send me a message:</p><br>
+                <input type="text" placeholder="Name" class="in_msg">
+                <input type="email" placeholder="Email" class="in_msg">
+                <input type="text" placeholder="Subject" class="in_msg">
+                <input type="text" placeholder="Message" class="in_msg">
+                <button type="button"><i class="bi bi-send-fill"style="font-size: 22px;"></i> SEND MESSAGE</button>
+              </div>
+            </div>
+            <div class="footer">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-snapchat"></i>
+              <i class="bi bi-pinterest"></i>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-linkedin"></i>
+              <br>
+              <div>Powered by <a href="#">asmaa</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>  
+</body>
+</html>
